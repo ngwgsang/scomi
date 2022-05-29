@@ -145,6 +145,14 @@ body {
 .footer {
   min-height: 20rem;
 }
+.footer .taglist {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.footer .taglist .badge {
+  padding: 0.6rem;
+}
 
 @media screen and (max-width: 1399.98px) {
   .ct-1 .btn {
